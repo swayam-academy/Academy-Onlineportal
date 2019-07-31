@@ -1,0 +1,120 @@
+.p
+{
+	font-size: 36px;
+	font-style: bold;
+	color: red;
+}
+.top
+{
+	background : url("Image/full01.png");
+	background-size: 100% 100%;
+	height: 100%; 
+}
+.bottom
+{
+	background-color:white;
+	background-size: 100% 100%;
+	height: 100%;
+}
+.bn
+{
+	font-size: 25px;
+}
+.heading
+{
+	height: 50%;	
+}
+.middle
+{
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	height: 40%;
+}
+.mid1
+{
+	position:absolute;
+	height: 20%;
+}
+.r
+{
+	width: 30%;
+	height: 100%;
+}
+.h
+{
+	font-size: 70px;
+	color: red;
+}
+.i
+{
+	background : url("Image/grey.jpg");
+	background-size: 100% 100%;	
+}
+.itop
+{
+	height: 20%;
+	background-color: black;
+	color: white;	
+	position: center;
+}
+.imid
+{
+ 	height: 70%;
+}
+.ibottom
+{
+	background-image: url("Image/p9.jpg");
+	background-size: 100% 100%;
+	height:70%;
+}
+.ibottom1
+{
+	background-image: url("Image/vision.png");
+	background-size: 100% 100%;
+	height:70%;
+}
+.ibottom2
+{
+	background-image: url("Image/q0.jpeg");
+	background-size: 100% 100%;
+	height:70%;
+}
+.menubar
+{
+	height: 35%;
+	background : url("Image/full01.png");
+	background-size: 100% 100%;
+}
+.menubar0
+{
+	height: 35%;
+	background : url("Image/p3.jpg");
+	background-size: 100% 100%;
+}
+.bar0
+{
+	height: 35%;
+	background : url("Image/q1.jpg");
+	background-size: 100% 100%;
+}
+.menubar1
+{
+	color: white;
+}
+
+.con
+{
+	background : url("Image/grey.jpg");
+	background-size: 100% 100%;
+}
+.t
+{
+	background: url("Image/n3.jpg");
+	background-size: 100% 100%;
+}
+.z1
+{
+	background: url("Image/banner.jpg")
+	background-size:100% 100%;
+}

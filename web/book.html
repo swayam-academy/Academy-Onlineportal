@@ -1,0 +1,86 @@
+<html>
+<head>
+  <title>Admin book</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="admin1.css">
+  <link rel="stylesheet" type="text/css" href="Front.css">
+</head>
+<body>
+<div class = "container-fluid con">
+  <div class = "row">
+  <div class = "col-md-5"></div>
+  <div class = "col-md-6">
+    <h2 class = "text-danger h">CONTENT</h2>
+    <br>
+  <form method ="post" action="Submit">
+  <div class="form-row">
+     <div class="form-group col-md-4">
+    <input type="text" name = "book_name" class="form-control" id="example Name" placeholder="Book Name">
+  </div>
+</div>
+  <div class="form-row">
+  <div class="form-group col-md-4">
+  <select id="inputState" class="form-control" name="current">
+        <option selected>Current Affairs</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+      </select> 
+</div>
+</div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <select id="inputState" class="form-control" name="news">
+        <option selected>Newspaper</option>
+        <option>The Hindu</option>
+        <option>Indian Express</option>
+      </select> 
+    </div>
+</div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <select id="inputState" class="form-control" name="note">
+        <option selected>Notes</option>
+        <option>VajiRam</option>
+        <option>Vision IAS</option>
+        <option>Dhristi</option>
+      </select>
+    </div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-4">
+      <select id="inputState" class="form-control" name="paper">
+        <option selected>Paper</option>
+        <option>Pre-2019</option>
+        <option>Pre-2018</option>
+        <option>Pre-2017</option>
+      </select>
+    </div>
+</div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <select id="inputState" class="form-control" name="gs">
+        <option selected>Category</option>
+        <option>GS1</option>
+        <option>GS2</option>
+        <option>GS3</option>
+        <option>GS4</option>
+      </select>
+    </div>
+    </div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+  <button type="submit" class="btn btn-danger btn-lg btn-block">Submit</button>
+  </div>
+</div>
+</form>
+</div>
+<div class="col-md-1"></div>
+</div>
+</div>
+</body>
+</html>
